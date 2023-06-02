@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <script src="script.js" defer ></script>
+    <script src="https://kit.fontawesome.com/0ed058305f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+    <style>@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');</style>
+</head>
+<body>
+    <div class="title"></div>
+    <main>
+        <div class="calculator">
+                <div class="screen">
+                    <div class="last-screen"></div>
+                    <div class="current-screen">0</div>
+                </div>
+            <div class="calculator-keys">
+                <button class="one" data-type="number" >1</button>
+                <button class="two" data-type="number" >2</button>
+                <button class="three" data-type="number" >3</button>
+                <button class="four" data-type="number" >4</button>
+                <button class="five" data-type="number" >5</button>
+                <button class="six" data-type="number" >6</button>
+                <button class="seven" data-type="number" >7</button>
+                <button class="eight" data-type="number" >8</button>
+                <button class="nine" data-type="number" >9</button>
+                <button class="zero" data-type="number" >0</button>
+                <button data-key="." class="decimal" data-type="number" >.</button>
+                <button class="clear" data-type="clear">C</button>
+                <button data-key="+" class="plus" data-type="operator" >&plus;</button>
+                <button data-key="−" class="minus" data-type="operator" >&minus;</button>
+                <button data-key="×"class="multiply" data-type="operator" >&times;</button>
+                <button data-key="÷" class="divide" data-type="operator" >&divide;</button>
+                <button class="equals" data-type="equals">&equals;</button>
+            </div>
+        </div> 
+    </main>
+    <footer class="footer">
+        <p>
+          Copyright ©
+          <script>
+            document.write(new Date().getFullYear())
+          </script>
+          TomJS14
+        </p>
+        <a href="https://github.com/TomJS14" target="_blank">
+          <i class="fab fa-github"></i
+        ></a>
+    </footer>
+    
+</body>
+</html>
